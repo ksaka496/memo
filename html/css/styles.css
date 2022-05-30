@@ -1,0 +1,7 @@
+hr.divider {
+	height: 0.2rem;
+	max-width: 3.25rem;
+	margin: 1.5rem auto;
+	background-color: #7a7a7a;
+	opacity: 1;
+}

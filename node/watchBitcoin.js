@@ -22,7 +22,7 @@ exports.handler = async (event) => {
 
 	//テキスト整形
 	const makeTweet = async (data) => {
-		tweetText = `【btcjpy】
+		tweetText = `#Bitcoin
         最新値：${JSON.parse(data).result.price.last.toLocaleString()}円
         高値：${JSON.parse(data).result.price.high.toLocaleString()}円
         安値：${JSON.parse(data).result.price.low.toLocaleString()}円
